@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="css/calendar.css" rel="stylesheet"/>
+    <style>
+        .calendar{
+            width: 200px;
+            height: 35px;
+            line-height: 35px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <!--class必须包含calendar，或者修改js文件与当前class一致-->
+    <input class="calendar" type="text" format="yyyy-MM-dd HH:mm:ss" firstDayOfWeek="1" showTime="1" oncopy="return false;" oncut="return false;" onpaste="return false;" />
+    <input class="calendar" type="text" format="yyyy-MM-dd" firstDayOfWeek="0" showTime="0" oncopy="return false;" oncut="return false;" onpaste="return false;" />
+    <script src="js/calendar.js"></script>
+</body>
+</html>
